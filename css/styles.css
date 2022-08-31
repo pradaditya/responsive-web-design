@@ -170,41 +170,106 @@ p {
 
     .navbar-brand {
         font-family: 'Ubuntu', sans-serif;
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     .nav-link {
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: 200;
+    }
+    .navbar-toggler {
+        padding: 2% 2%;
+    }
+    
+    .navbar-toggler-icon {
+        width: 60px;
+        height: 60px;
     }
 
     #title {
         text-align: center;
     }
+    .container-fluid {
+        padding: 5% 5%;
+    }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 4rem;
         font-weight: 700;
         line-height: 1.5;
     }
     
     h2 {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         font-weight: 600;
         line-height: 1.5;
     }
     
     h3 {
-        font-size: 1.5rem;
+        font-size: 3rem;
         font-weight: 600;
     }
     
     p {
-        font-size: 1rem;
+        font-size: 2rem;
         color: #8F8F8F;
     }
+
+    .download-btn {
+        font-size: 1.5rem;
+        width: 280px;
+        height: 80px;
+    }
+
     .title-img {
         position: static;
         transform: rotate(0);
         width: 40%;
+    }
+
+    #features {        
+        padding: 5% 5%;
+        background-color: #ffffff;
+        position: relative;
+    }
+    
+    .features-box {
+        margin: 40px 0;
+    }
+
+    .carousel-item {
+        padding: 4% 10%;
+    }
+    em {
+        font-size: 2rem;
+    }
+
+    #pricing {
+        padding: 2% 8%;
+    }
+
+    .col {
+        margin: auto;
+        width: 80%;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        height: 450px;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+
+    .btn-custom, .btn-outline-custom {
+        font-size: 2rem;
+        width: 280px;
+        height: 80px;
+    }
+
+    #footer {
+        padding: 1% 2%;
     }
 }
