@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding: 3% 15% 15%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: #8F8F8F;
+}
+/* navigation bar  */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* features  */
+#features {
+    padding: 7% 15%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.features-box {
+    text-align: center;
+}
+.features-icon {
+    color: #EF8172;
+    font-size: 3.125rem;
+}
+
+
+.features-icon:hover {
+    color: #FF4C86;
+}
+
+/* testimonial  */
+
+#testimonials {
+    background-color: #ff4c68;
+    color: #ffffff;    
+    text-align: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+/* Press  */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* carousel  */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing  */
+#pricing {
+    padding: 7% 15%;
+}
+
+.bg-custom {
+    background-color: #ff4c68;
+}
+
+.border-custom {
+    border-color: #ff4c68;
+}
+
+/* btn-custom  */
+.btn-custom {
+    background-color: #ff4c68 ;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #ffffff;
+    border-color: #ff4c68 ;
+    color: #ff4c68 ;
+}
+
+.btn-outline-custom {
+    border: 2px solid black;
+    border-color: #ff4c68;
+    background-color: #ffffff;
+}
+
+.btn-outline-custom:hover {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68 ;
+    color: #ffffff;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+/* footer */
+
+#footer {
+    padding: 3% 15%;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+    .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    p {
+        font-size: 1rem;
+        color: #8F8F8F;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
