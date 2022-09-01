@@ -1,37 +1,36 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #ffffff;
-}
 
-.container-fluid {
-    padding: 3% 15% 15%;
+h1, h2, h3, h4, h5, h6 {    
+    font-weight: 700;
 }
-
-h1 {
-    font-size: 3.5rem;
+/* Headings  */
+.big-heading {
     font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
     font-size: 3rem;
-    font-weight: 700;
     line-height: 1.5;
 }
 
-h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+/* Containe  */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+
 
 p {
     color: #8F8F8F;
 }
+
 /* navigation bar  */
 .navbar {
     padding: 0 0 4.5rem;
@@ -50,6 +49,16 @@ p {
     font-weight: 200;
 }
 
+/* Title Section  */
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 15%;
+}
 .download-btn {
     margin: 5% 3% 5% 0;
 }
@@ -63,30 +72,26 @@ p {
 
 /* features  */
 #features {
-    padding: 7% 15%;
     background-color: #ffffff;
     position: relative;
 }
-
-.features-box {
-    text-align: center;
+.features-title {
+    font-size: 1.5rem;
 }
+
 .features-icon {
     color: #EF8172;
     font-size: 3.125rem;
 }
-
 
 .features-icon:hover {
     color: #FF4C86;
 }
 
 /* testimonial  */
-
 #testimonials {
     background-color: #ff4c68;
-    color: #ffffff;    
-    text-align: center;
+    color: #ffffff;   
 }
 
 .testimonial-image {
@@ -95,11 +100,14 @@ p {
     width: 10%;
 }
 
-/* Press  */
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
+/* Press  */
 #press {
     background-color: #ff4c68;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -108,15 +116,10 @@ p {
     width: 15%;
 }
 
-/* carousel  */
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Pricing  */
-#pricing {
-    padding: 7% 15%;
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .bg-custom {
@@ -151,29 +154,44 @@ p {
 }
 
 /* CTA */
-
 #cta {
     background-color: #ff4c68 ;
     color: #ffffff;
-    padding: 5% 15%;
-    text-align: center;
 }
 
 /* footer */
-
-#footer {
-    padding: 3% 15%;
-    text-align: center;
+.social-icon {
+    margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
 
+    /* Container  */
+    .container-fluid {
+        padding: 5% 5%;
+    }
+    
+    /* Headings  */
+    h1, h2, h3, .features-title, .navbar-brand  {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    
+    h4, em, li, .nav-link, .download-btn, .btn-custom, .btn-outline-custom, .social-icon {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #8F8F8F;
+    }
+
+    /* Navbar  */
     .navbar-brand {
         font-family: 'Ubuntu', sans-serif;
-        font-size: 3.5rem;
     }
     .nav-link {
-        font-size: 2rem;
         font-weight: 200;
     }
     .navbar-toggler {
@@ -185,37 +203,12 @@ p {
         height: 60px;
     }
 
+    /* Title  */
     #title {
         text-align: center;
     }
-    .container-fluid {
-        padding: 5% 5%;
-    }
-
-    h1 {
-        font-size: 4rem;
-        font-weight: 700;
-        line-height: 1.5;
-    }
-    
-    h2 {
-        font-size: 3.5rem;
-        font-weight: 600;
-        line-height: 1.5;
-    }
-    
-    h3 {
-        font-size: 3rem;
-        font-weight: 600;
-    }
-    
-    p {
-        font-size: 2rem;
-        color: #8F8F8F;
-    }
 
     .download-btn {
-        font-size: 1.5rem;
         width: 280px;
         height: 80px;
     }
@@ -236,40 +229,25 @@ p {
         margin: 40px 0;
     }
 
-    .carousel-item {
+    .carousel-item, #pricing {
         padding: 4% 10%;
-    }
-    em {
-        font-size: 2rem;
-    }
-
-    #pricing {
-        padding: 2% 8%;
     }
 
     .col {
         margin: auto;
         width: 80%;
     }
-    h4 {
-        font-size: 2rem;
-    }
 
     .card-body {
         height: 450px;
     }
 
-    li {
-        font-size: 2rem;
-    }
-
     .btn-custom, .btn-outline-custom {
-        font-size: 2rem;
         width: 280px;
         height: 80px;
     }
 
     #footer {
-        padding: 1% 2%;
+        padding: 1% 1%;
     }
 }
